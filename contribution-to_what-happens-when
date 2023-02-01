@@ -1,0 +1,13 @@
+Have you ever wondered what happens in the background when you type “https://www.google.com” in your web browser and press Enter? It’s a complex process, but it’s important to understand how it works to get the most out of the internet. Let’s take a look at what happens behind the scenes.
+
+First, a DNS (Domain Name System) request is sent. This request is sent to a DNS server, which translates the domain name into an IP address so that the browser can connect to the website.
+
+Once the IP address is retrieved, the browser establishes a TCP/IP (Transmission Control Protocol/Internet Protocol) connection with the web server that hosts the website. This connection is made possible by “opening a port” through the firewall, which is a security system that prevents unauthorized access to the server.
+
+The web server then sends back a response containing the website’s content. This response is encrypted using HTTPS/SSL (Hypertext Transfer Protocol Secure/Secure Socket Layer) encryption. This guarantees that the data is safe and cannot be intercepted by nefarious outsiders.
+Once the data reaches the browser, the browser can then communicate with the web server using the same encryption. The data is then sent to a load balancer, which distributes the traffic from the browser across multiple web servers.
+
+The web application server receives the requests and transmits them to the web application server. The data is processed by the application server before being sent to the database, where it is stored. The application server subsequently receives the requested data from the database.
+
+The data is subsequently returned from the application server to the browser and displayed on the screen. You now have access to the website you asked for!
+As you can see, there’s a lot that goes on in the background when you type “https://www.google.com”
